@@ -26,6 +26,7 @@ header img {
     float: left;
     margin: 10px;
 }
+
 header nav {
     margin: 0 10px;
     
@@ -50,6 +51,15 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 hr {
-    color: #1464f6;
-    size: 5px;
+    border: none; 
+    color: #1464f6; 
+    background-color: #1464f6;
+    height: 2px; 
+}
+.carousel img {
+    max-width: 485px;
+    float: left;
+}
+.main {
+    padding: 0 15px;
 }
