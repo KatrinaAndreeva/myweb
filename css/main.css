@@ -40,7 +40,6 @@ header nav ul {
 header nav ul li {
 list-style-type: none;
 padding: 10px;
-
 }
 header nav ul li a {
     text-decoration: none;
@@ -53,7 +52,7 @@ header nav ul li a:hover {
 hr {
     border: none; 
     background-color: #1464f6;
-    color:  #1464f6;
+    color: #1464f6;
     height: 2px; 
 }
 .carousel img {
@@ -81,7 +80,7 @@ p {
     padding: 0 10px;
 }
 .contactme {
-    width: 80%;
+    width: 35%;
     margin: 20px auto;
     display: block;
     
@@ -95,6 +94,7 @@ p {
 }
 .html img, .css img, .js img {
     width: 45px;
+    margin: 0 15px;
 }
 h2, h3 {
     text-align: center;
@@ -150,6 +150,7 @@ h2, h3 {
 form {
     display: grid;
     font-size: 18px;
+    margin-left: 15px;
 }
 label {
     width: 150px;

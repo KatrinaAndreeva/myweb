@@ -17,39 +17,7 @@ body {
 .container {
     max-width: 980px;
 }
-header {
-    background-color: #ebebeb;
-}
-header img {
-    width: 275px;
-    height: 55px;
-    float: left;
-    margin: 10px;
-}
 
-header nav {
-    margin: 0 10px;
-    
-}
-header nav ul {
-     display: flex;
-    padding: 0;
-    justify-content: center;
-    
-}
-header nav ul li {
-list-style-type: none;
-padding: 10px;
-
-}
-header nav ul li a {
-    text-decoration: none;
-    color: #1464f6; 
-    font-size: 18px;
-}
-header nav ul li a:hover {
-    text-decoration: underline;
-}
 .aboutme {
     background-color: #f7f6f6;
 }
@@ -57,8 +25,18 @@ header nav ul li a:hover {
     background-color: #ebebeb; 
 }
 .map {
-    width: 660px;
-    height: 450px;
+    width: 500px;
+    height: 320px;
     border: 1px;
+    margin: 15px 0 0 15px;
 }
-
+.info {
+    background-color: #ebebeb;
+}
+.adress {
+    display: grid;
+    margin-left: 15px;
+}
+.adress a {
+    padding: 10px 0;
+}
