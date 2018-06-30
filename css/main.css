@@ -53,7 +53,6 @@ header nav ul li a:hover {
 hr {
     border: none; 
     color: #1464f6; 
-    background-color: #1464f6;
     height: 2px; 
 }
 .carousel img {
@@ -140,8 +139,7 @@ h2, h3 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 5px;
-    row-gap: 5px;
-}
+   }
 .gallery {
     display: flex;
 }
