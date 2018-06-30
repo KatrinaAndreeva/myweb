@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+:root {
+    font-family: 'Karla', sans-serif;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 980px;
+    margin: auto;
+}
+.clearfix {
+    clear: both;
+}
+.container {
+    max-width: 980px;
+}
+header {
+    background-color: #ebebeb;
+}
+header img {
+    width: 275px;
+    height: 55px;
+    float: left;
+    margin: 10px;
+}
+
+header nav {
+    margin: 0 10px;
+    
+}
+header nav ul {
+     display: flex;
+    padding: 0;
+    justify-content: center;
+    
+}
+header nav ul li {
+list-style-type: none;
+padding: 10px;
+
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #1464f6; 
+    font-size: 18px;
+}
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+hr {
+    border: none; 
+    color: #1464f6; 
+    background-color: #1464f6;
+    height: 2px; 
+}
+.aboutme {
+    background-color: 
+    #f7f6f6;
+}
+.project {
+    background-color: #ebebeb; 
+}

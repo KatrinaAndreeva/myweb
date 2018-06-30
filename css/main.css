@@ -83,6 +83,7 @@ p {
 .contactme {
     width: 80%;
     margin: 20px auto;
+    display: block;
     
 }
 .aboutme {
