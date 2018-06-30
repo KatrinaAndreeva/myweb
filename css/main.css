@@ -52,7 +52,8 @@ header nav ul li a:hover {
 }
 hr {
     border: none; 
-    color: #1464f6; 
+    background-color: #1464f6;
+    color: #1464f;
     height: 2px; 
 }
 .carousel img {
