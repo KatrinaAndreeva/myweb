@@ -63,3 +63,9 @@ hr {
 .project {
     background-color: #ebebeb; 
 }
+.map {
+    max-width: 660px;
+    max-height: 450;
+    border: 1px;
+}
+
