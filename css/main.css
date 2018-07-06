@@ -19,22 +19,24 @@ body {
 }
 header {
     background-color: #ebebeb;
+    display: flex;
 }
 header img {
     width: 275px;
     height: 55px;
-    float: left;
+    
     margin: 10px;
 }
 
 header nav {
-    margin: 0 10px;
-    
+    display: flex;
+    margin: 0 auto;
 }
 header nav ul {
      display: flex;
     padding: 0;
     justify-content: center;
+    align-items: center;
     
 }
 header nav ul li {
@@ -56,12 +58,13 @@ hr {
     height: 2px; 
 }
 .carousel img {
-    max-width: 485px;
+    max-width: 455px;
     float: left;
 }
 .main {
     display: grid;
     background-color: #f7f6f6;
+    max-width: 50%;
 }
 h1{
     text-align: center;
@@ -138,7 +141,7 @@ h2, h3 {
 .product-list {
     margin: 0 5px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    /*grid-template-columns: repeat(4, 1fr);*/
     column-gap: 5px;
    }
 .gallery {
@@ -162,4 +165,53 @@ footer {
 footer img {
     width: 35px;
     margin: 15px;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+   position: relative;
+  margin: auto;
+  max-width: 50%;
+}
+
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
 }

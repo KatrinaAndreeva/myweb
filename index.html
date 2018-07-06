@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Katrina Andreieva-web developer</title>
-    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/main.css" />
 </head>
 
 <body>
@@ -14,28 +14,54 @@
         <header>
             <img src="image/logo.png" alt="html&css">
             <nav>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="aboutme.html">ABOUT ME</a></li>
-                <li><a href="work.html">WORK</a></li>
-                        </ul>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="aboutme.html">ABOUT ME</a></li>
+                    <li><a href="work.html">WORK</a></li>
+                </ul>
             </nav>
-            <div class="clearfix"></div>
+
         </header>
-         <hr>
-        
-            <div class="carousel">
-                <img src="image/carousel1.jpg" alt="my_photo">
+        <hr>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img src="image/slide1.jpg">
             </div>
-            
-            <section class="main">
+
+            <div class="mySlides fade">
+                <img src="image/slide2.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="image/slide3.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="image/slide4.jpg">
+            </div>
+   
+        </div>
+        <br>
+
+        <div class="dot">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+        <section class="main">
             <h1>Website development</h1>
             <p class="firstline">Hello!</p>
-            <p>My name is Katrina Andreieva and I am the web-developer from Ukraine, Lviv. I know a thing or two about developing the web-sites, so...</p>
+            <p>My name is Katrina Andreieva</p>
+            <p> And I am the web-developer from Ukraine, Lviv.</p>
+            <p>I am quite knew in IT, but I was working hard for getting some additional education, so now I can say "I am good in what I do"></p>
+            <p>I know a thing or two about developing the web-sites, so...</p>
             <button class="contactme">CONTACT ME</button>
         </section>
-        
-        <div class="clearfix"></div>
+
+
         <hr>
         <section class="aboutme">
             <h2 class="firstline">ABOUT ME</h2>
@@ -44,17 +70,17 @@
             <div class="skills">
                 <h3>Professional Skills</h3>
                 <div class="html">
-                <img src="image/html.png" alt="logo_html">
-                <progress value="75" max="100"></progress>
+                    <img src="image/html.png" alt="logo_html">
+                    <progress value="75" max="100"></progress>
                 </div>
                 <div class="css">
-                  <img src="image/css.png" alt="logo_css">  
+                    <img src="image/css.png" alt="logo_css">
                     <progress value="75" max="100"></progress>
                 </div>
                 <div class="js">
-                  <img src="image/js.png" alt="logo_javascript">   
+                    <img src="image/js.png" alt="logo_javascript">
                     <progress value="75" max="100"></progress>
-               </div>
+                </div>
             </div>
             <div class="diploma">
                 <img src="image/diploma_html_css.png" alt="diploma">
@@ -63,54 +89,58 @@
         <div class="clearfix"></div>
         <hr>
         <div class="myprojects">
-        <h3>Here you can find some of my projects</h3>
-        <div class="gallery">
-            <article class="product-card">
+            <h3>Here you can find some of my projects</h3>
+            <div class="gallery">
+                <article class="product-card">
                     <img src="image/itea.png" alt="itea_page">
                     <div class="buttons">
-                    <a href="work.html" class="btn btn-sm animated-button thar-four">Learn more</a></div></article>
-            <article class="product-card">
+                        <a href="work.html" class="btn btn-sm animated-button thar-four">Learn more</a></div>
+                </article>
+                <article class="product-card">
                     <img src="image/mutual_trust.png" alt="credit_union_mutual_trust">
-                    
+
                     <div class="buttons">
-                    <a href="work.html" class="btn btn-sm animated-button thar-four">Learn more</a></div></article>
-            <article class="product-card">      
+                        <a href="work.html" class="btn btn-sm animated-button thar-four">Learn more</a></div>
+                </article>
+                <article class="product-card">
                     <img src="image/tsq.jpg" alt="landing_page_tsq">
-                    
+
                     <div class="buttons">
-                    <a href="work.html" class="btn btn-sm animated-button thar-four">Learn more</a></div></article>
+                        <a href="work.html" class="btn btn-sm animated-button thar-four">Learn more</a></div>
+                </article>
             </div>
-        <h3>Watch more</h3>
+            <h3>Watch more</h3>
         </div>
         <div class="clearfix"></div>
         <hr>
         <div class="form">
-        <h2>Need a Project?</h2>
-        <p>Let me know if you are looking for a web developer and we'll take a look and see if this could be the start of something beautiful.</p>
-        <form method="POST" action="https://formspree.io/katya-andreeva@ukr.net">
-            <label for="user-name">Your name:
+            <h2>Need a Project?</h2>
+            <p>Let me know if you are looking for a web developer and we'll take a look and see if this could be the start of something beautiful.</p>
+            <form method="POST" action="https://formspree.io/katya-andreeva@ukr.net">
+                <label for="user-name">Your name:
                     <input type="text" name="user-name"
          id="user-name" placeholder="User Name" required/> 
                 </label>
-            <label for="user-email">E-mail:
+                <label for="user-email">E-mail:
                     <input type="email" name="user-email" id="user-email" placeholder="Email" required/>
                 </label>
-            <label for="user-phone">Phone:
+                <label for="user-phone">Phone:
                     <input type="tel" name="user-phone" id="user-phone" required/>
                 </label>
-            <label for="user-content">Your message:
+                <label for="user-content">Your message:
                     <input type="text" name="user-content" id="user-content" placeholder="Message" required/>
                 </label>
-            <input class="contactme" type="submit" value="SEND">
+                <input class="contactme" type="submit" value="SEND">
             </form>
-            </div>
-            <hr>
-            <footer>
-                <a href="https://www.facebook.com/profile.php?id=100007123089060"><img src="image/facebook.gif" alt="facebook" /></a>
-                <img src="image/twitter.gif" alt="twitter" />
-                <img src="image/youtube.gif" alt="youtube" />
-            </footer>
+        </div>
+        <hr>
+        <footer>
+            <a href="https://www.facebook.com/profile.php?id=100007123089060"><img src="image/facebook.gif" alt="facebook" /></a>
+            <img src="image/twitter.gif" alt="twitter" />
+            <img src="image/youtube.gif" alt="youtube" />
+        </footer>
     </div>
+    <script src="js/carousel.js"></script>
 </body>
 
 </html>
