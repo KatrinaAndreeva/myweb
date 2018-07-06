@@ -153,10 +153,16 @@ form {
     display: grid;
     font-size: 18px;
     margin-left: 15px;
+    width: 400px;
+    margin: auto;
+    
 }
 label {
-    width: 150px;
+    width: 400px;
     margin: 10px 0;
+}
+input {
+    width: 400px;
 }
 footer {
     background-color: #f7f6f6;
