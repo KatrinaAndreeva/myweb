@@ -57,10 +57,7 @@ hr {
     color: #1464f6;
     height: 2px; 
 }
-.carousel img {
-    max-width: 455px;
-    float: left;
-}
+
 .main {
     display: grid;
     background-color: #f7f6f6;
@@ -171,7 +168,7 @@ footer img {
 /* Slideshow container */
 .slideshow-container {
    position: relative;
-  margin: auto;
+ float: left;
   max-width: 50%;
 }
 
