@@ -57,7 +57,9 @@ hr {
     color: #1464f6;
     height: 2px; 
 }
-
+.unit {
+    display: flex;
+}
 .main {
     display: grid;
     background-color: #f7f6f6;
