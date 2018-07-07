@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Karla');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 
 :root {
     font-family: 'Karla', sans-serif;
@@ -69,6 +70,7 @@ h1{
     text-align: center;
     font-size: 30px;
     padding: 20px 0;
+    font-family: 'Lobster', cursive;
 } 
 .firstline {
     font-size: 22px;
@@ -102,6 +104,7 @@ h2, h3 {
     text-align: center;
     font-size: 20px;
     padding: 10px 0;
+    font-family: 'Lobster', cursive;
 }
 .html progress, .css progress, .js progress {
     background-color: #f3f3f3;
