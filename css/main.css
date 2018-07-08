@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Karla');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Kurale&subset=cyrillic');
 
 :root {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Kurale', serif;
 }
 * {
     margin: 0;
@@ -43,6 +44,8 @@ header nav ul {
 header nav ul li {
 list-style-type: none;
 padding: 10px;
+font-family: 'Lobster', cursive;
+
 }
 header nav ul li a {
     text-decoration: none;

@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Karla');
 
-:root {
-    font-family: 'Karla', sans-serif;
-}
 * {
     margin: 0;
     box-sizing: border-box;
@@ -26,12 +22,12 @@ body {
 }
 .map {
     width: 500px;
-    height: 320px;
     border: 1px;
     margin: 15px 0 0 15px;
 }
 .info {
     background-color: #ebebeb;
+    min-height: 400px;
 }
 .adress {
     display: grid;
