@@ -90,7 +90,10 @@ p {
     width: 35%;
     margin: 20px auto;
     display: block;
-    text-decoration: none;
+}
+.contactme a {
+        text-decoration: none;
+color: black;
 }
 .aboutme {
     background-color: #ebebeb;
@@ -120,9 +123,20 @@ h2, h3 {
     max-width: 325px;
     margin: 20px;
 }
-.myprojects {
+.myprojects, .my_projects {
     background-color: #f7f6f6;
 }
+.my_projects img {
+    width: 350px;
+    height: 450px;
+    margin: 25px;
+    -webkit-transition: width 0.5s;
+    -moz-transition: width 0.5s;
+    -o-transition: width 0.5s;
+     transition: width 0.5s;
+
+}
+
 .product-card {
     border: 1px solid blue;
     width: 30%;
