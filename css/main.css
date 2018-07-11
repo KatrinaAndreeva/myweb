@@ -13,9 +13,6 @@ body {
     max-width: 980px;
     margin: auto;
     font-family: 'Kurale', serif;
-    background-image: url(image/bcg.jpg);
-    background-repeat: repeat;
-    background-size: 100%;
 }
 .clearfix {
     clear: both;
