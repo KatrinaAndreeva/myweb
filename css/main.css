@@ -13,6 +13,9 @@ body {
     max-width: 980px;
     margin: auto;
     font-family: 'Kurale', serif;
+    background-image: url(image/bcg.jpg);
+    background-repeat: repeat;
+    background-size: 100%;
 }
 .clearfix {
     clear: both;
@@ -93,6 +96,7 @@ p {
      width: 75%;
     height: 25px;
     display: flex;
+    border-radius: 10px;
 }
 .contactme {
     width: 35%;
@@ -121,6 +125,7 @@ h2, h3 {
     font-size: 20px;
     padding: 10px 0;
     font-family: 'Lobster', cursive;
+    margin-bottom: 0;
 }
 .progress-html, .progress-css, .progress-js {
 display: flex;
