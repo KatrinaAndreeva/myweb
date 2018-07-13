@@ -275,3 +275,49 @@ footer img {
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+@media only screen and (max-device-width : 480px) {
+header img{
+    display: none;
+}
+body {
+    max-width: 100%;
+}
+.container {
+    width: 100%;
+}
+.slideshow-container {
+    display: none;
+}
+.main {
+    max-width: 100%;
+}
+.progress-html, .progress-css, .progress-js {
+    max-width: 75%;
+}
+.diploma img {
+    width: 300px;
+}
+.gallery {
+    flex-wrap: wrap;
+}
+.product-card .buttons {
+   display: block; 
+}
+}
+@media only screen and (min-device-width: 481px) and (max-device-width : 768px) {
+body {
+    max-width: 100%;
+}
+.container {
+    width: 100%;
+}
+header img {
+    width: 185px;
+}
+.slideshow-container {
+    display: none;
+}
+.main {
+    max-width: 100%;
+}
+}
