@@ -281,11 +281,9 @@ header img{
 }
 body {
     max-width: 100%;
-    padding: 0px;
 }
 .container {
     width: 100%;
-    padding: 0px;
 }
 .slideshow-container {
     display: none;
