@@ -15,7 +15,7 @@ function sendForm(e) {
                 name: document.querySelector('.sample-form input[user-name=name]').value,
                 email: document.querySelector('.sample-form input[name=email]').value,
             })
-        });
+        })
         .then(response => {
             form.reset();
         })
