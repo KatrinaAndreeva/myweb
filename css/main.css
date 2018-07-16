@@ -103,7 +103,14 @@ p {
     margin: 20px auto;
     display: block;
         cursor: pointer;
+      border-radius: 5px;  
 
+}
+.contactme:hover {
+    background-color: #1464f6;
+    opacity: 0.7;
+    border: 1px solid #1464f6;
+    border-radius: 5px;
 }
 .contactme a {
         text-decoration: none;
@@ -169,6 +176,7 @@ display: flex;
     border: 1px solid blue;
     width: 30%;
     margin: 0 10px;
+  
 }
 
 .product-card img {
@@ -193,6 +201,7 @@ display: flex;
 .gallery {
     display: flex;
     background-color: #f7f6f6;
+    padding: 0 20px;
 }
 .btn-form {
     width: 140px;
@@ -305,6 +314,9 @@ body {
 .product-card .buttons {
    display: block; 
 }
+.map {
+    width: 80%;
+}
 }
 @media only screen and (min-device-width: 481px) and (max-device-width : 768px) {
 body {
@@ -322,6 +334,9 @@ header img {
 .main {
     max-width: 100%;
 }
+.map {
+    width: 80%;
+}
 }
 @media only screen and (min-device-width: 769px) and (max-device-width : 900px) {
 body {
@@ -338,5 +353,8 @@ header img {
 }
 .main {
     max-width: 100%;
+}
+.map {
+    width: 80%;
 }
 }
