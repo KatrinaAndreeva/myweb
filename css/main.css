@@ -252,7 +252,7 @@ footer img {
   height: 15px;
   width: 15px;
   margin: 0 2px;
-     background-color: #f7f6f6;
+     background-color: #717171;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -261,7 +261,7 @@ footer img {
      text-align: center;
 }
 .active {
-  background-color: #717171;
+  background-color: #1464f6;
 }
 
 /* Fading animation */

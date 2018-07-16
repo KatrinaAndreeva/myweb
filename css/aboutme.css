@@ -36,6 +36,7 @@ body {
 }
 .adress a {
     padding: 10px 0;
+    text-decoration: none;
 }
 @media only screen and (min-device-width: 10px) and (max-device-width : 480px) {
 .map {
