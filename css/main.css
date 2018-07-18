@@ -114,6 +114,7 @@ p {
 }
 .contactme a {
         text-decoration: none;
+        text-align: center;
 color: black;
 }
 .aboutme {
@@ -211,7 +212,7 @@ display: flex;
 .form {
     background-color: #ebebeb;
 }
-form {
+.sample-form {
     display: grid;
     font-size: 18px;
     margin-left: 15px;
@@ -222,9 +223,13 @@ form {
 label {
     width: 400px;
     margin: 10px 0;
+     color: #1464f6;
 }
 input {
     width: 400px;
+    border: 1px solid #fff;
+    border-radius: 40px; 
+    padding-left: 10px;
 }
 footer {
     background-color: #f7f6f6;
@@ -233,7 +238,9 @@ footer img {
     width: 35px;
     margin: 15px;
 }
-
+textarea {
+    width: 100%;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -317,6 +324,41 @@ body {
 .map {
     width: 80%;
 }
+.sample-form {
+    width: 80%;
+    margin: 0 auto;
+}
+label {
+    width: 95%;
+        padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    list-style: none;
+    color: #1464f6;
+    float: left;
+}
+input {
+    width: 84%;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    text-align: left;
+    margin: 4px;
+    text-indent: 5px;
+     padding-left: 5px;
+}
+textarea {
+    width: 85%;
+}
+.contactme {
+    text-align: center;
+    width: 50%;
+}
 }
 @media only screen and (min-device-width: 481px) and (max-device-width : 768px) {
 body {
@@ -337,6 +379,14 @@ header img {
 .map {
     width: 80%;
 }
+input {
+   border: 1px solid #fff;
+    border-radius: 40px; 
+    padding-left: 5px;
+}
+label {
+     color: #1464f6;
+}
 }
 @media only screen and (min-device-width: 769px) and (max-device-width : 900px) {
 body {
@@ -356,5 +406,13 @@ header img {
 }
 .map {
     width: 80%;
+}
+input {
+    border: 1px solid #fff;
+    border-radius: 40px;
+    padding-left: 5px;
+}
+label {
+     color: #1464f6;
 }
 }
